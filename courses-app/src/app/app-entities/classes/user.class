@@ -1,0 +1,6 @@
+import {UserInterface} from "../interfaces/user.interface";
+export class User implements UserInterface {
+    id: number;
+    firstName: string;
+    lastName: string;
+}
